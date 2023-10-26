@@ -47,7 +47,7 @@ summary.lm(AGEmodel)
 
 
 
-## Model LENGTH ~ AGE  this is an example  
+## Model LENGTH ~ HEADLEN  this is an example  
 
 ```{r}
 HEADLENmodel <- lm(LENGTH~HEADLEN,data=bears)
@@ -56,7 +56,7 @@ abline(HEADLENmodel)
 summary.lm(HEADLENmodel)
 ```
 
-## make a regression model for AGE.
+## make a regression model for HEADWTH.
 
 
 
@@ -69,7 +69,7 @@ abline(HEADWTHmodel)
 summary.lm(HEADWTHmodel)
 ```
 
-## make a regression model for AGE.
+## make a regression model for CHEST.
 
 
 
@@ -94,3 +94,5 @@ plot(LENGTH~WEIGHT,data=bears)
 abline(WEIGHTmodel)
 summary.lm(WEIGHTmodel)
 ```
+
+In conclusion, the highest Adjusted R-squared:  0.8434 was Head Length, compared to all the other variables. Among all the models that fit and thus was the best of those was the Head Length.  
